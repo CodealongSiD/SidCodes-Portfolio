@@ -39,7 +39,7 @@ const Bento = () => {
           Here’s a peek at my background, skills, and track record.
         </p>
         <a
-          href="https://drive.google.com/file/d/1HL0XaRn2mYELTDzswXf4kuxktOA1yLUA/view?usp=sharing"
+          href="https://drive.google.com/file/d/1MEnI1qfAPWXCz4MopJMgBLTmLwC1abqq/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
         >
