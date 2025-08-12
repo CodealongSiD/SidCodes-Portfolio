@@ -1,69 +1,62 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# SideCodes Portfolio - Dev Portfolio
 
-Currently, two official plugins are available:
+## Description
+It is a collection of what I like in development bundled with a narrative of what I do and where I want to be as a Full Stack Developer.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Responsive design for all screen sizes
+- Dark mode support for comfortable viewing
+- Custom animations to enhance user experience
+- Fun GIFs sprinkled throughout for personality
+- Showcase of projects I have worked on and currently working on
 
-## Expanding the ESLint configuration
+## Tech Stack
+- React
+- Vite
+- Tailwind CSS
+- TypeScript
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Getting Started
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Prerequisites
+Make sure you have Node.js and npm installed on your machine. You can download them from [Node.js official site](https://nodejs.org/).
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/sidecodes-portfolio.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd sidecodes-portfolio
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Running Locally
+Start the development server with hot reloading:
+```bash
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Building for Production
+To create a production build:
+```bash
+npm run build
 ```
+
+### Deployment
+This project can be deployed easily on platforms like [Vercel](https://vercel.com/).
+- Import your GitHub repo on Vercel.
+- It auto-detects Vite and sets build command as `npm run build` and output directory as `dist`.
+- Click deploy and your portfolio will be live!
+
+## Contact
+Feel free to reach out via any platform below:
+- Email: iamsiddharth1723@example.com
+
+## License
+This project is open source and available under the MIT License.
